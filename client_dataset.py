@@ -6,7 +6,7 @@ import syft as sy
 '''
 Dataset:
 
-data = th.rand((1000, 1))*1000
+data = th.rand((10000, 1))*1000
 target = data.sin()
 
 Alices share
